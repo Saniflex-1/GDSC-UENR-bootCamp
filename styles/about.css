@@ -1,0 +1,34 @@
+#about {
+    margin-top: 10px;
+}
+
+#about h2{
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#about p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ima-content{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ima img{
+    /* height: 120px; */
+    width: 220px;
+}
+
+.content{
+    margin-left: 20px;
+}
+
+.content h2, p{
+    color: #001f3f;
+}
