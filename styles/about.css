@@ -32,3 +32,46 @@
 .content h2, p{
     color: #001f3f;
 }
+
+.info .aa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info .aa h2{
+    color: #0a76e3;
+    font-weight: 900;
+    font-size: 21px;
+    font-family: poppins, sans-serif;
+}
+
+.info .aa p, a{
+    margin-left: 10px;
+}
+
+.little p{
+    letter-spacing: 1px;
+    font-family: "akrobat", 'poppins';
+    line-height: 20px;
+    font-size: 1.3em;
+}
+
+.facts p{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.facts em{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(13, 8, 8);
+}
