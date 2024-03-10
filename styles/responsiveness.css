@@ -1,0 +1,58 @@
+@media (max-width: 1199px) {
+    .header {
+        left: -300px;
+    }
+
+    .all{
+        margin-left: 30px;
+        /* left: 5px; */
+    }
+
+        #home{
+            margin-left: 0;
+        }
+
+        #home h4{
+            margin-left: 50px;
+        }
+
+        .ima-content{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .ima img{
+            width: 500px;
+            height: 500px;
+            /* object-fit: cover; */
+        }
+
+                .rates {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                }
+    
+}
+
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    body{
+        background-color: blue;
+    }
+
+    .rates{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

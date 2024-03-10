@@ -1,13 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header{
     position: fixed;
-    width: 200px;
+    width: 300px;
     height: 100vh;
     background-color: #001f3f;
 }
@@ -24,28 +25,30 @@
     margin-top: 20px;
     /* border-radius: 50px 0 50px 0; */
     border-radius: 100px;
-    width: 90px;
-    height: 90px;
-    /* object-fit: contain; */
+    width: 150px;
+    height: 150px;
+    /* object-fit: cover; */
     object-position: center;
     border: 5px solid #353f49;
 }
 
 .myPic .name{
     color: #ffd700;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 900;
     font-family: 'poppins';
 }
 
 .myPic p{
     color: rgb(227, 202, 172);
-    font-size: 8px;
+    font-size: 9px;
     letter-spacing: 1.5px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .social-media{
-    margin-top: -10px;
+    margin-top: -5px;
     
 }
 
@@ -57,8 +60,8 @@
 .social-media img{
     padding: 2px;
     border-radius: 100px;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: aliceblue;
     transition: all 0.5s;
 }
@@ -70,7 +73,7 @@
 
 .link{
     position: relative;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 30px;
 }
 
@@ -82,7 +85,7 @@
 .link ul li{
     display: flex;
     align-items: center;
-    line-height: 3;
+    line-height: 3.5;
 }
 
 .link ul li a:hover {
@@ -99,10 +102,10 @@
 }
 
 .link ul li img{
-    padding: 2px;
+    padding: 5px;
     border-radius: 100px;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-color: aliceblue;
     transition: all 0.4s;
 }
@@ -154,7 +157,7 @@
 }
 
 .all{
-    margin-left: 222px;
+    margin-left: 322px;
     margin-right: 5px;
 }
 

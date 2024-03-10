@@ -22,7 +22,7 @@
 
 .ima img{
     /* height: 120px; */
-    width: 220px;
+    width: 350px;
 }
 
 .content{
@@ -58,20 +58,66 @@
 
 .little p{
     letter-spacing: 1px;
-    font-family: "akrobat", 'poppins';
-    line-height: 20px;
-    font-size: 1.3em;
+    font-family: 'poppins';
+    /* font-size: 1.3em; */
+}
+
+
+
+.facts {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+b{
+    font-size: 2em;
+    text-decoration: underline;
 }
 
 .facts p{
-    text-decoration: underline;
-    font-weight: 900;
-    font-size: 2em;
-    margin-top: 20px;
+    margin-top: 10px;
+    color: rgb(3, 9, 24);
+    font-size: 19px;
 }
 
-.facts em{
+.rates{
+    display: flex;
     margin-top: 20px;
-    margin-bottom: 40px;
-    color: rgb(13, 8, 8);
+    position: relative;
+    gap: 20px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contain .num{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.contain .num p{
+    margin-top: 0;
+}
+
+.num span{
+    margin-top: -5px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.skills {
+    margin-top: 40px;
+    margin-left: -50px;
+    height: 350px;
+    background-color: #9aa4af;
+}
+
+.skills b, p{
+    margin-left: 50px;
+    
 }
