@@ -6,11 +6,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+
 .humber{
     position: absolute;
     right: 20px;
     top: 10px;
-    color: red;
+    color: rgb(112, 80, 80);
     font-size: 2em;
     width: 40px;
     height: 40px;
