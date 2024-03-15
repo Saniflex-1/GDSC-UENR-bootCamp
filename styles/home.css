@@ -3,21 +3,32 @@
     padding: 0;
     /* overflow-x: hidden; */
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+
 }
 
+/* body{
+    margin-right: 50px;
+} */
 
 
 .humber{
     position: absolute;
     right: 20px;
     top: 10px;
-    color: rgb(112, 80, 80);
+    color: rgb(255, 255, 255);
     font-size: 2em;
     width: 40px;
     height: 40px;
-
     visibility: hidden;
+    transition: all 0.5s;
+    border: none;
+    background-color: #353f49;
+    border: 2px solid #001f3f;
+}
+
+.humber:hover{
+    transform: rotate(360deg);
 }
 
 .header{
@@ -51,7 +62,7 @@
 
 .myPic .name{
     color: #ffd700;
-    font-size: 17px;
+    font-size: 1.2em;
     font-weight: 900;
     font-family: 'poppins';
 }
@@ -107,6 +118,7 @@
 
 .link ul li a:hover {
     color: white;
+    text-shadow: 25px -16px 2.5px olive;
 }
 
 .link ul li a{

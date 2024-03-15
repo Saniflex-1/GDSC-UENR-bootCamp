@@ -1,17 +1,30 @@
 #about {
     margin-top: 10px;
+    position: relative;
 }
 
 #about h2{
-    margin-top: 20px;
-    font-size: 2em;
-    font-weight: 700;
-    text-decoration: underline;
+    margin-top: 40px;
+    color: #1476d7;
+    font-size: 1.85em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+#about span{
+    position: absolute;
+    height: 2.6px;
+    width: 80px;
+    background-color: #001f3f;
 }
 
 
+
 #about p{
-    font-size: 15px;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 25px;
     margin-top: 10px;
 }
 
@@ -59,8 +72,10 @@
 
 .little p{
     letter-spacing: 1px;
-    font-family: 'poppins';
-    /* font-size: 1.3em; */
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 25px;
+    margin-right: 20px;
 }
 
 
@@ -68,19 +83,32 @@
 .facts {
     margin-top: 40px;
     margin-bottom: 40px;
+    position: relative;
 }
 
 b{
-    font-size: 2em;
-    text-decoration: underline;
+    color: #1476d7;
+    font-size: 1.85em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.facts .span{
+    position: absolute;
+    width: 70px;
+    height: 2.5px;
+    background-color: #001f3f;
 }
 
 .facts p{
     margin-top: 10px;
     color: rgb(3, 9, 24);
-    font-size: 19px;
+    font-size: 1.0em;
+    font-weight: 500;
+    line-height: 25px;
 }
-
 .rates{
     display: flex;
     margin-top: 20px;
@@ -113,13 +141,64 @@ b{
 }
 
 .skills {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     margin-top: 40px;
     margin-left: -50px;
-    height: 350px;
-    background-color: #9aa4af;
+    background-color: #d3e5f7;
+    
+    /* opacity: 0.4; */
 }
 
-.skills b, p{
+.skills h2{
+    /* position: absolute; */
+    margin-top: 20px;
     margin-left: 50px;
-    
+    color: #001f3f;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.skills h2 span{
+    margin-top: 15px;
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    background-color: #0a76e3;
+}
+
+.skills p{
+    margin-top: 40px;
+        font-size: 1.1em;
+        font-weight: 500;
+        line-height: 25px;
+    margin-left: 50px;
+}
+
+.skill{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    /* gap: 150px; */
+    margin-bottom: 20px;
+    /* width: 890px; */
+    justify-content: space-between;
+}
+
+.tool{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.tool img{
+    width: 50px;
 }

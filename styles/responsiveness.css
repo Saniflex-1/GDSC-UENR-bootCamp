@@ -1,6 +1,9 @@
 @media (max-width: 1199px) {
     .humber{
         visibility: visible;
+        position: fixed;
+        z-index: 50;
+        
     }
     .header {
         left: -300px;
@@ -38,23 +41,53 @@
             /* object-fit: cover; */
         }
 
-                .rates {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                }
+        .rates {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+         }
+
+         .line-1{
+            height: 160px;
+         }
+
+         .line-c{
+            height: 280px;
+         }
     
+
 }
 
 
 @media (max-width: 768px) {
-    #hero h1 {
-        font-size: 28px;
-        line-height: 36px;
+
+    .all{
+        /* margin-left: 10px; */
     }
     
+    .line-1{
+        height: 160px;
+    }
+
+    .line{
+        height: 240px;
+    }
+
+    .line-c{
+        height: 380px;
+    }
+    .line-d{
+        height: 330px;
+    }
+
+    .resume-item h4 {
+        font-size: 1.2em;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 9px;
+    }
 
     .ima img{
-        width: 250px;
+        width: 200px;
         height: 300px;
     }
 
@@ -70,5 +103,104 @@
     .rates{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 691px){
+    
+
+    .line-1{
+        height: 185px;
+    }
+
+    .line-d{
+        height: 350px;
+    }
+}
+
+@media (max-width: 615.2px){
+    body{
+        background-color: antiquewhite;
+    }
+
+    .line-1{
+        height: 210px;
+    }
+}
+@media (max-width: 563.2px){
+    body{
+        background-color: rgb(11, 191, 41);
+    }
+
+    .line-1{
+        height: 210px;
+    }
+
+     .line-c {
+       height: 407px;
+     }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: rgb(252, 252, 252);
+    }
+
+    .line-1 {
+        height: 287px;
+    }
+
+    .line-c{
+        height: 455px;
+    }
+    .line-d {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        background-color: rgb(252, 252, 252);
+    }
+
+    .line-1 {
+        height: 287px;
+    }
+
+    .line-c{
+        height: 630px;
+    }
+
+    .line-d {
+        height: 530px;
+    }
+}
+
+@media (max-width: 393px) {
+
+    .line-1 {
+        height: 460px;
+    }
+
+    .line-c{
+        height: 530px;
+    }
+
+    .line-d {
+        height: 470px;
+    }
+}
+
+@media (max-width: 428px) {
+    .line-1 {
+        height: 237px;
+    }
+
+    .line-c{
+        height: 507px;
+    }
+
+    .line-d {
+        height: 400px;
     }
 }
