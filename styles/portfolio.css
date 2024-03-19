@@ -1,0 +1,154 @@
+#portfolio{
+    position: relative;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+
+.port-container{
+    position: relative;
+    /* margin-left: 322px; */
+}
+
+.section-titles h2{
+    color: #001f3f;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.section-titles p{
+    margin-top: 50px;
+    font-size: 1.1em;
+    line-height: 25px;
+    color: #001f3f;
+    font-weight: 500;
+}
+
+.section-titles span{
+    margin-top: 10px;
+    position: absolute;
+    height: 2.8px;
+    width: 70px;
+    background-color: #0f75dc;
+    border-radius: 2px 10px 20px 80px;
+}
+
+
+.port-filter{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+}
+
+.port-filter ul{
+    border-radius: 20px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.port-filter ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0786a5;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.app,
+.ca{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.we{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+/* .appss,
+.webs,
+.cards{
+    transform: scale(1);
+} */
+
+#Alls{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.app-1 img{
+    width: 360px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.app-1 .links{
+    position: absolute;
+    width: 360px;
+    display: flex;
+    margin-top: -45px;
+}
+
+.view-app{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #0786a5;
+    width: 180px;
+    transition: all 0.4s;
+    height: 45px;
+    justify-content: center;
+}
+
+.brows-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    background-color: #0786a5;
+    text-align: center;
+    transition: all 0.4s;
+    height: 45px;
+}
+
+
+.brows-app:hover{
+    background-color: #91d3e4;
+    opacity: 0.8;
+    color: #001f3f;
+}
+
+.view-app:hover{
+    background-color: #91d3e4;
+    opacity: 0.8;
+    color: #001f3f;
+}
+
+.app-1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+}
+
+abbr{
+    text-decoration: none;
+}
