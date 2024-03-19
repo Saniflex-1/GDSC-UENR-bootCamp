@@ -60,6 +60,11 @@
      display: grid;
     grid-template-columns: repeat(1, 1fr);
     }
+
+    .ima-content .content{
+        margin-left: -20px;
+        margin-right: 10px;
+    }
 }
 
 
