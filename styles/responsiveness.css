@@ -11,7 +11,7 @@
     }
 
     .header {
-        top: -100%;
+        top: -120%;
         transition: all 1.5s;
     }
 
