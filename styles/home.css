@@ -14,8 +14,8 @@
 
 .humber{
     position: absolute;
-    right: 20px;
-    top: 10px;
+    right: 25px;
+    top: 15px;
     color: rgb(255, 255, 255);
     font-size: 2em;
     width: 40px;
@@ -119,6 +119,7 @@
 .link ul li a:hover {
     color: white;
     text-shadow: 25px -16px 2.5px olive;
+    cursor: pointer;
 }
 
 .link ul li a{
