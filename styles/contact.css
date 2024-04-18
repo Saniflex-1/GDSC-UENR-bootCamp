@@ -4,6 +4,7 @@
   margin: auto 0;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: rgb(216, 224, 224);
   margin-bottom: 20px;
+  padding: 4px;
 }
