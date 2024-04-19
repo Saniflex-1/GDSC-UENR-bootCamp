@@ -131,6 +131,8 @@
   font-family: "poppins";
   line-height: 19px;
   padding: 5px;
+  letter-spacing: 1px;
+  font-weight: 300;
   /* transform: scale(0); */
 }
 /* .details p:hover {
