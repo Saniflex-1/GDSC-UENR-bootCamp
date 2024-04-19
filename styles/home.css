@@ -1,194 +1,186 @@
-*{
-    margin: 0;
-    padding: 0;
-    /* overflow-x: hidden; */
-    box-sizing: border-box;
-    font-family: sans-serif, 'Times New Roman', Times, serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
+  font-family: sans-serif, "Times New Roman", Times, serif;
 }
 
 /* body{
     margin-right: 50px;
 } */
 
-
-.humber{
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    color: rgb(255, 255, 255);
-    font-size: 2em;
-    width: 40px;
-    height: 40px;
-    visibility: hidden;
-    transition: all 0.5s;
-    border: none;
-    background-color: #353f49;
-    border: 2px solid #001f3f;
+.humber {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  width: 40px;
+  height: 40px;
+  visibility: hidden;
+  transition: all 0.5s;
+  border: none;
+  background-color: #353f49;
+  border: 2px solid #001f3f;
 }
 
-.humber:hover{
-    transform: rotate(360deg);
+.humber:hover {
+  transform: rotate(360deg);
 }
 
-.header{
-    position: fixed;
-    width: 300px;
-    height: 100vh;
-    background-color: #001f3f;
-    transition: all 0.5s;
-    z-index: 55;
+.header {
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  background-color: #001f3f;
+  transition: all 0.5s;
+  z-index: 55;
 }
 
-
-.myPic{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.myPic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.myPic img{
-    margin-top: 20px;
-    /* border-radius: 50px 0 50px 0; */
-    border-radius: 100px;
-    width: 150px;
-    height: 150px;
-    /* object-fit: cover; */
-    object-position: center;
-    border: 5px solid #353f49;
+.myPic img {
+  margin-top: 20px;
+  /* border-radius: 50px 0 50px 0; */
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid #353f49;
+  padding: 4px;
 }
 
-.myPic .name{
-    color: #ffd700;
-    font-size: 1.2em;
-    font-weight: 900;
-    font-family: 'poppins';
+.myPic .name {
+  color: #ffd700;
+  font-size: 1.2em;
+  font-weight: 900;
+  font-family: "poppins";
 }
 
-.myPic p{
-    color: rgb(227, 202, 172);
-    font-size: 9px;
-    letter-spacing: 1.5px;
-    margin-top: 10px;
-    text-align: center;
+.myPic p {
+  color: rgb(227, 202, 172);
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  text-align: center;
 }
 
-.social-media{
-    margin-top: -5px;
-    
+.social-media {
+  margin-top: -5px;
 }
 
-.social-media a{
-   text-decoration: none;
-   letter-spacing: 10px;
+.social-media a {
+  text-decoration: none;
+  letter-spacing: 10px;
 }
 
-.social-media img{
-    padding: 2px;
-    border-radius: 100px;
-    width: 30px;
-    height: 30px;
-    background-color: aliceblue;
-    transition: all 0.5s;
+.social-media img {
+  padding: 2px;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  background-color: aliceblue;
+  transition: all 0.5s;
 }
 
-.social-media img:hover{
-    box-shadow: #ffd700 3px 2px 10px;
-    transform: scale(1.2);
+.social-media img:hover {
+  box-shadow: #ffd700 3px 2px 10px;
+  transform: scale(1.2);
 }
 
-.link{
-    position: relative;
-    margin-left: 30px;
-    margin-top: 30px;
+.link {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
-.link ul{
-    display: flex;
-    flex-direction: column;
+.link ul {
+  display: flex;
+  flex-direction: column;
 }
 
-.link ul li{
-    display: flex;
-    align-items: center;
-    line-height: 3.5;
+.link ul li {
+  display: flex;
+  align-items: center;
+  line-height: 3.5;
 }
 
 .link ul li a:hover {
-    color: white;
-    text-shadow: 25px -16px 2.5px olive;
-    cursor: pointer;
+  color: white;
+  text-shadow: 25px -16px 2.5px olive;
+  cursor: pointer;
 }
 
-.link ul li a{
-    color: rgb(194, 186, 172);
-    text-decoration: none;
-    margin-left: 10px;
-    font-size: 15px;
-    transition: all 0.5s;
-    cursor: default;
+.link ul li a {
+  color: rgb(194, 186, 172);
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 15px;
+  transition: all 0.5s;
+  cursor: default;
 }
 
-.link ul li img{
-    padding: 5px;
-    border-radius: 100px;
-    width: 25px;
-    height: 25px;
-    background-color: aliceblue;
-    transition: all 0.4s;
+.link ul li img {
+  padding: 5px;
+  border-radius: 100px;
+  width: 25px;
+  height: 25px;
+  background-color: aliceblue;
+  transition: all 0.4s;
 }
 
 .link ul li img:hover {
-    color: white;
-    background-color: #ffd700;
-    opacity: 0.9;
+  color: white;
+  background-color: #ffd700;
+  opacity: 0.9;
 }
 
-
-
-
-.art{
-    color: #ffd700;
-    text-align: center;
-    margin-top: 50px;
-    font-weight: 700;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.art {
+  color: #ffd700;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-#home{
-    height: 100vh;
-    margin-left: 200px;
+#home {
+  height: 100vh;
+  margin-left: 200px;
 
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: 
-    url(/images/content/w4.jpg) center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: url(/images/content/w4.jpg) center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-    /* color: #ffd700; */
-    font-size: 25px;
-    font-weight: 500;
+  /* color: #ffd700; */
+  font-size: 25px;
+  font-weight: 500;
 }
 
-#home h4{
-    text-align: center;
-    color: #ffd700;
-    background-color: #001f3f;
-    margin-left: 250px;
-    margin-top: 250px;
-    opacity: 0.7;
-    font-weight: 900;
-
+#home h4 {
+  text-align: center;
+  color: #ffd700;
+  background-color: #001f3f;
+  margin-left: 250px;
+  margin-top: 250px;
+  opacity: 0.7;
+  font-weight: 900;
 }
 
-.all{
-    margin-left: 322px;
-    margin-right: 5px;
+.all {
+  margin-left: 322px;
+  margin-right: 5px;
 }
-
