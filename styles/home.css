@@ -111,6 +111,7 @@
   display: flex;
   align-items: center;
   line-height: 3.5;
+  transition: all ease;
 }
 
 .link ul li a:hover {
