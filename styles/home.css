@@ -14,7 +14,7 @@
   position: absolute;
   right: 20px;
   top: 15px;
-  color: rgb(255, 255, 255);
+  color: rgb(240, 119, 6);
   font-size: 2em;
   width: 40px;
   height: 40px;
@@ -22,7 +22,7 @@
   transition: all 0.5s;
   border: none;
   background-color: #353f49;
-  border: 2px solid #001f3f;
+  border: 2px solid #e38a05;
 }
 
 .humber:hover {
