@@ -21,7 +21,7 @@
   visibility: hidden;
   transition: all 0.5s;
   border: none;
-  background-color: #353f49;
+  background-color: transparent;
   border: 2px solid #e38a05;
 }
 
