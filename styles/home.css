@@ -9,6 +9,9 @@
 /* body{
     margin-right: 50px;
 } */
+html {
+  scroll-behavior: smooth;
+}
 
 .humber {
   position: absolute;
