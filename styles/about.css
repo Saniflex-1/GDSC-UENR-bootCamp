@@ -1,204 +1,203 @@
 #about {
-    margin-top: 10px;
-    position: relative;
+  margin-top: 10px;
+  position: relative;
 }
 
-#about h2{
-    margin-top: 40px;
-    color: #1476d7;
-    font-size: 1.85em;
-    font-weight: 800;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
+#about h2 {
+  margin-top: 40px;
+  color: #1476d7;
+  font-size: 1.85em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
 }
 
-#about span{
-    position: absolute;
-    height: 2.6px;
-    width: 80px;
-    background-color: #001f3f;
+#about span {
+  position: absolute;
+  height: 2.6px;
+  width: 80px;
+  background-color: #001f3f;
 }
 
-
-
-#about p{
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 25px;
-    margin-top: 10px;
+#about p {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 10px;
 }
 
-.ima-content{
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.ima-content {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.ima img{
-    /* height: 120px; */
-    width: 350px;
+.ima img {
+  height: 300px;
+  width: 350px;
+  object-fit: contain;
+  margin-left: -70px;
 }
 
-.content{
-    margin-left: 20px;
+.content {
+  margin-left: 20px;
 }
 
-.content h2, p{
-    color: #001f3f;
+.content h2,
+p {
+  color: #001f3f;
 }
 
-.info .aa{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 20px;
+.info .aa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.info{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.info .aa h2{
-    color: #0a76e3;
-    font-weight: 900;
-    font-size: 21px;
-    font-family: poppins, sans-serif;
+.info .aa h2 {
+  color: #0a76e3;
+  font-weight: 900;
+  font-size: 21px;
+  font-family: poppins, sans-serif;
 }
 
-.info .aa p, a{
-    margin-left: 10px;
+.info .aa p,
+a {
+  margin-left: 10px;
 }
 
-.little p{
-    letter-spacing: 1px;
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 25px;
-    margin-right: 20px;
+.little p {
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 25px;
+  margin-right: 20px;
 }
-
-
 
 .facts {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
 }
 
-b{
-    color: #1476d7;
-    font-size: 1.85em;
-    font-weight: 800;
-    margin-bottom: 30px;
-    letter-spacing: 2px;
-    font-family: sans-serif;
+b {
+  color: #1476d7;
+  font-size: 1.85em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
 }
 
-.facts .span{
-    position: absolute;
-    width: 70px;
-    height: 2.5px;
-    background-color: #001f3f;
+.facts .span {
+  position: absolute;
+  width: 70px;
+  height: 2.5px;
+  background-color: #001f3f;
 }
 
-.facts p{
-    margin-top: 10px;
-    color: rgb(3, 9, 24);
-    font-size: 1.0em;
-    font-weight: 500;
-    line-height: 25px;
+.facts p {
+  margin-top: 10px;
+  color: rgb(3, 9, 24);
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 25px;
 }
-.rates{
-    display: flex;
-    margin-top: 20px;
-    position: relative;
-    gap: 20px;
-}
-
-.contain{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.rates {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  gap: 20px;
 }
 
-
-.contain .num{
-    display: flex;
-    flex-direction: column;
-    font-family: sans-serif;
-    line-height: 1.5;
+.contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.contain .num p{
-    margin-top: 0;
+.contain .num {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
-.num span{
-    margin-top: -5px;
-    font-weight: 100;
-    font-size: 15px;
+.contain .num p {
+  margin-top: 0;
+}
+
+.num span {
+  margin-top: -5px;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .skills {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-top: 40px;
-    margin-left: -50px;
-    background-color: #d3e5f7;
-    
-    /* opacity: 0.4; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 40px;
+  margin-left: -50px;
+  background-color: #d3e5f7;
+
+  /* opacity: 0.4; */
 }
 
-.skills h2{
-    /* position: absolute; */
-    margin-top: 20px;
-    margin-left: 50px;
-    color: #001f3f;
-    font-family: sans-serif;
-    font-weight: 700;
-    letter-spacing: 5px;
-    font-size: 25px;
+.skills h2 {
+  /* position: absolute; */
+  margin-top: 20px;
+  margin-left: 50px;
+  color: #001f3f;
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+  font-size: 25px;
 }
 
-.skills h2 span{
-    margin-top: 15px;
-    position: absolute;
-    height: 3px;
-    width: 50px;
-    background-color: #0a76e3;
+.skills h2 span {
+  margin-top: 15px;
+  position: absolute;
+  height: 3px;
+  width: 50px;
+  background-color: #0a76e3;
 }
 
-.skills p{
-    margin-top: 40px;
-        font-size: 1.1em;
-        font-weight: 500;
-        line-height: 25px;
-    margin-left: 50px;
+.skills p {
+  margin-top: 40px;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 25px;
+  margin-left: 50px;
 }
 
-.skill{
-    display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
-    /* gap: 150px; */
-    margin-bottom: 20px;
-    /* width: 890px; */
-    justify-content: space-between;
+.skill {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  /* gap: 150px; */
+  margin-bottom: 20px;
+  /* width: 890px; */
+  justify-content: space-between;
 }
 
-.tool{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 20px;
-    text-align: center;
-    align-items: center;
+.tool {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
 }
 
-.tool img{
-    width: 50px;
+.tool img {
+  width: 50px;
 }
