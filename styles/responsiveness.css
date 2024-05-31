@@ -70,17 +70,6 @@
   }
 }
 
-@media (max-width: 900px) {
-  .link,
-  .myPic {
-    position: absolute;
-  }
-
-  .link {
-    margin-top: 520px;
-  }
-}
-
 @media (max-width: 768px) {
   .line-1 {
     height: 160px;
