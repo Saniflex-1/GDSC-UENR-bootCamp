@@ -200,3 +200,12 @@ b {
 .tool img {
   width: 50px;
 }
+
+.ado img {
+  width: 80px;
+  margin-top: -10px;
+}
+
+.ado {
+  margin-top: 30px;
+}
