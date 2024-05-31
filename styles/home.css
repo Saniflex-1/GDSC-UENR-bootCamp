@@ -233,8 +233,16 @@ button.arrowjet {
   width: 100%;
 }
 
-.barge img {
+.barge a img {
+  position: absolute;
   margin-top: 90px;
+  width: 80px;
+  margin-left: -42px;
+  transition: all 0.3s;
+}
+
+.barge:hover {
+  transform: translate(-10px);
 }
 
 .down-cv a button {
