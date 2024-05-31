@@ -216,6 +216,7 @@ button.arrowjet {
   margin-top: 250px;
   opacity: 0.99;
   font-weight: 900;
+  font-family: "poppins";
 }
 
 .down-cv {
@@ -242,6 +243,51 @@ button.arrowjet {
   padding: 2px;
   border-radius: 10px;
   font-family: "poppins";
+  transition: all 0.3s;
+  animation: hover 0.5s forwards 0.3s infinite ease-in-out;
+}
+
+@keyframes hover {
+  25% {
+    border-top: 4px solid rgb(0, 208, 255);
+    /* padding-top: 8px; */
+  }
+  50% {
+    border-right: 4px solid rgb(89, 255, 0);
+  }
+  75% {
+    border-bottom: 4px solid rgb(255, 0, 183);
+  }
+  100% {
+    border-left: 4px solid rgb(255, 106, 0);
+  }
+}
+
+.down-cv a button:hover {
+  background-color: #03223d;
+  color: #ffd700;
+  animation: hover 0.5s 0.3s forwards infinite ease-in-out;
+  transition: all 0.3s;
+}
+
+@keyframes hovers {
+  25% {
+    /* border-top: 4px solid rgb(0, 208, 255); */
+    /* padding-top: 8px; */
+    transform: rotate(90deg);
+  }
+  50% {
+    border-right: 4px solid rgb(89, 255, 0);
+    transform: rotate(180deg);
+  }
+  75% {
+    border-bottom: 4px solid rgb(255, 0, 183);
+    transform: rotate(270deg);
+  }
+  100% {
+    border-left: 4px solid rgb(255, 106, 0);
+    transform: rotate(360deg);
+  }
 }
 
 .all {
