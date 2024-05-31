@@ -224,7 +224,12 @@ button.arrowjet {
   justify-content: center;
   display: flex;
   width: 100%;
-  opacity: 1;
+}
+.down-cv {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  width: 100%;
 }
 
 .down-cv a button {
