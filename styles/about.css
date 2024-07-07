@@ -47,6 +47,9 @@
 p {
   color: #001f3f;
 }
+.content h2 {
+  color: #1476d7;
+}
 
 .info .aa {
   display: flex;
