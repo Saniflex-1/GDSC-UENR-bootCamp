@@ -4,7 +4,7 @@
 }
 
 #about h2 {
-  margin-top: 40px;
+  margin-top: 30px;
   color: #1476d7;
   font-size: 1.85em;
   font-weight: 800;
@@ -16,14 +16,15 @@
   position: absolute;
   height: 2.6px;
   width: 80px;
-  background-color: #001f3f;
+  background-color: #0b6ed1;
 }
 
 #about p {
   font-size: 1em;
   font-weight: 500;
   line-height: 25px;
-  margin-top: 10px;
+  margin-top: -15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .ima-content {
@@ -98,7 +99,7 @@ b {
   position: absolute;
   width: 70px;
   height: 2.5px;
-  background-color: #001f3f;
+  background-color: #0871da;
 }
 
 .facts p {
@@ -107,6 +108,7 @@ b {
   font-size: 1em;
   font-weight: 500;
   line-height: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .rates {
   display: flex;
@@ -153,7 +155,7 @@ b {
   /* position: absolute; */
   margin-top: 20px;
   margin-left: 50px;
-  color: #001f3f;
+  color: #077df3;
   font-family: sans-serif;
   font-weight: 700;
   letter-spacing: 5px;
@@ -161,7 +163,7 @@ b {
 }
 
 .skills h2 span {
-  margin-top: 15px;
+  margin-top: 5px;
   position: absolute;
   height: 3px;
   width: 50px;
@@ -169,11 +171,12 @@ b {
 }
 
 .skills p {
-  margin-top: 40px;
+  margin-top: 22px;
   font-size: 1.1em;
   font-weight: 500;
   line-height: 25px;
   margin-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .skill {
@@ -195,6 +198,8 @@ b {
   margin-top: 20px;
   text-align: center;
   align-items: center;
+  color: #1476d7;
+  font-weight: 800;
 }
 
 .tool img {
