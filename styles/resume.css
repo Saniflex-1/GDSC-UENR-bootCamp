@@ -21,14 +21,16 @@
     height: 2.9px;
     width: 80px;
     background-color: #1a78d6;
-    margin-top: 5px;
+    margin-top: -2px;
 }
 
 .container-title p{
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 500;
     line-height: 25px;
     margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -21px;
 }
 
 .row{
