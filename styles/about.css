@@ -37,6 +37,7 @@
   height: 300px;
   width: 350px;
   object-fit: contain;
+  border-radius: 15px;
 }
 
 .content {
