@@ -71,6 +71,9 @@
 }
 
 @media (max-width: 768px) {
+  .ima{
+    margin-bottom: 10px;
+  }
   .line-1 {
     height: 160px;
   }
@@ -100,6 +103,13 @@
 
   .info {
     grid-template-columns: repeat(1, 1fr);
+
+    line-height: 15px;
+  }
+
+  .little p{
+    margin-top: 20px;
+    border-top: 1px solid #1476d7;
   }
 
   .contain img {
