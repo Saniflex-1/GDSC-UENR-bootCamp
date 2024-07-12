@@ -81,7 +81,8 @@
 }
 
 .allPorts{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
   height: 100vh;
