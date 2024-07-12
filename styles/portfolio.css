@@ -2,11 +2,13 @@
   position: relative;
   background-color: aliceblue;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .port-container {
   position: relative;
-  /* margin-left: 322px; */
+ 
 }
 
 .section-titles h2 {
@@ -60,7 +62,7 @@
   text-align: center;
 }
 
-.app,
+
 .ca {
   position: relative;
   display: flex;
@@ -69,121 +71,81 @@
   margin-bottom: 20px;
   flex-wrap: wrap;
 }
-.we {
+
+
+
+
+.all-portfolio{
   position: relative;
   display: flex;
-  flex-direction: row;
-  gap: 25px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
 }
 
-/* .appss,
-.webs,
-.cards{
-    transform: scale(1);
-} */
-
-#Alls {
+.allPorts{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
 }
 
-.app-1 img {
-  width: 360px;
-  height: 250px;
-  object-fit: cover;
+.ports{
+  height: 500px;
+  margin: 20px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
 }
 
-.app-1 .links {
-  position: relative;
+.intro{
+  height: 70px;
+  width: 350px;
+  padding: 6px;
+  box-sizing: border-box;
   position: absolute;
-  width: 360px;
-  display: flex;
-  margin-top: -85px;
-  flex-direction: column;
-  transition: all 0.4s 0.2s ease;
+  background: rgb(27, 27, 27, 0.8);
+  bottom: 120px;
+  transition: all 0.5s;
+}
+
+.intro h2 a{
+  margin: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+.intro p{
+  color: white;
+  font-size: 15px;
+  margin: 20px;
+  visibility: hidden;
   opacity: 0;
 }
 
-.app-1 .links:hover {
-  filter: saturate(30%);
-  cursor: progress;
+.ports:hover{
+  cursor: pointer;
+}
+
+.ports:hover .intro{
+  height: 220px;
+  bottom: 120px;
+  background-color: #001f3f;
+}
+.ports:hover p{
   opacity: 1;
-  background-color: #001f3f;
+  visibility: visible;
+}
+.ports:hover img{
+  transform: scale(1.1) rotate(-3deg);
 }
 
-.p {
-  position: absolute;
-  font-size: 15px;
-  margin-top: -40px;
-  color: rgb(255, 255, 255);
-  margin-left: 99px;
-  background-color: #001f3f;
-  padding: 5px;
-  border-radius: 10px;
-  opacity: 0.7;
+.allPorts img{
+  height: 500px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 50px;
 }
 
-.details p {
-  color: white;
-  font-size: 15px;
-  font-family: "poppins";
-  line-height: 19px;
-  padding: 5px;
-  letter-spacing: 1px;
-  font-weight: 300;
-  /* transform: scale(0); */
-}
-/* .details p:hover {
-  transform: scale(1);
+/* #Alls {
+  display: flex;
+  flex-wrap: wrap;
 } */
 
-.okk {
-  display: flex;
-  flex-direction: row;
-}
-
-.view-app {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-color: #0786a5;
-  width: 180px;
-  transition: all 0.4s;
-  height: 45px;
-  justify-content: center;
-}
-
-.brows-app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 180px;
-  background-color: #0786a5;
-  text-align: center;
-  transition: all 0.4s;
-  height: 45px;
-}
-
-.brows-app:hover {
-  background-color: #91d3e4;
-  opacity: 0.8;
-  color: #001f3f;
-}
-
-.view-app:hover {
-  background-color: #91d3e4;
-  opacity: 0.8;
-  color: #001f3f;
-}
-
-.app-1 a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.7em;
-}
-
-abbr {
-  text-decoration: none;
-}
