@@ -68,9 +68,15 @@
   .facts p {
     margin-right: 10px;
   }
+
+  .allPorts{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
 }
 
 @media (max-width: 768px) {
+
   .ima{
     margin-bottom: 10px;
   }
@@ -131,6 +137,7 @@
 }
 
 @media (max-width: 691px) {
+ 
   .line-1 {
     height: 185px;
   }
@@ -149,6 +156,7 @@
 }
 
 @media (max-width: 615.2px) {
+
   body {
     background-color: rgb(248, 238, 226);
   }
