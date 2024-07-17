@@ -81,12 +81,12 @@
 }
 
 .allPorts{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  margin-top: -60px;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  
+  flex-wrap: wrap;
 }
 
 .ports{
@@ -103,7 +103,7 @@
   box-sizing: border-box;
   position: absolute;
   background: rgb(27, 27, 27, 0.8);
-  bottom: 120px;
+  bottom: 125px;
   transition: all 0.5s;
 }
 
@@ -111,6 +111,12 @@
   margin: 10px;
   font-size: 40px;
   color: white;
+  transition: all 0.3s;
+}
+
+.intro h2 a:hover{
+  color: rgb(254, 162, 3);
+
 }
 
 .intro p{
